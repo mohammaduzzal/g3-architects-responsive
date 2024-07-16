@@ -151,7 +151,7 @@ margin-top: 130px;
 .card-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
+    padding: 50px;
 
 }
 
@@ -169,8 +169,8 @@ margin-top: 130px;
 
 .fact{
     border: 1px solid rgba(255, 144, 14, 1);
-    width: 240px;
-    height: 240px; 
+    width: 200px;
+    height: 200px; 
     border-radius: 8px;
     text-align: center;
     align-items: center;
@@ -178,12 +178,25 @@ margin-top: 130px;
    
  
 }
-.banner-description {
+.some-facts-text {
     max-width: 540px;
 }
-.some-fact {
-    margin-left: 20px;
+/* sponsor related style */
+.sponsor-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
 }
+.sponsor-companies{
+    display:grid ;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies  img {
+    filter: grayscale(100%);
+}
+  
+
 
 
 
